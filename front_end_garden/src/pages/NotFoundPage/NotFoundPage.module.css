@@ -1,0 +1,15 @@
+.not_found_container{
+    margin: 0 -4vw;
+    display: flex;
+    width: 100%;
+    height: 625px;
+    
+}
+
+.not_found_img{
+    /* display: lock;  */
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;   
+    
+}

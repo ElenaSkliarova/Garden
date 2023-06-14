@@ -1,0 +1,11 @@
+.categories_title{
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #000000;   
+}

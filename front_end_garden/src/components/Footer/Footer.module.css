@@ -1,0 +1,158 @@
+.footer_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_info{
+    margin-bottom: 50px; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;    
+    font-family: 'Montserrat';
+    color: #000000;    
+}
+
+.contact{
+    margin-right: 30px;
+    width: 55%;
+    display:flex;
+    flex-direction: column;    
+}
+
+.title_info{    
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;    
+    margin-bottom: 25px;
+}
+
+.number_info{    
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 130%;    
+    margin-bottom: 20px;
+}
+
+.messengers_container{
+    display: flex;
+    gap: 35px;
+}
+
+.messenger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 130%;    
+}
+
+.messenger_icon{
+    text-decoration: none;
+    color: #000000; 
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.address{
+    width: 45%;
+    display:flex;
+    flex-direction: column;    
+}
+
+.address_info{
+    display: inline-flex;    
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.address_hours{     
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;    
+}
+
+.address_long_hours{    
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;   
+}
+
+.map{
+    margin-bottom: 50px;
+    width: 100%;    
+}
+
+@media (max-width: 1400px){
+    .footer_info{
+        justify-content: space-between;       
+    }
+
+    .title_info{    
+        font-size: 40px;        
+    }
+    
+    .number_info{    
+        font-size: 50px;        
+    }
+
+    .address_info{        
+        font-size: 30px;        
+    }
+    
+    .address_hours{     
+        font-size: 18px;
+    }
+    
+    .address_long_hours{    
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1110px){
+    .title_info{    
+        font-size: 40px;        
+    }
+    
+    .number_info{    
+        font-size: 30px;        
+    }
+
+    .address_info{        
+        font-size: 30px;        
+    }
+    
+    .address_hours{     
+        font-size: 18px;
+    }
+    
+    .address_long_hours{    
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 750px){
+    .footer_info{
+       flex-direction: column;  
+       align-items: center;     
+    }
+
+    .contact{
+        margin: 0  0 50px 0;
+        width: 100%;
+        text-align: center;        
+    }
+
+    .messengers_container{
+        justify-content: center;
+    }
+
+    .address{
+        width: 100%;
+        text-align: center;        
+    }
+}

@@ -1,0 +1,126 @@
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;       
+}
+
+.sale{
+    width: 155px;
+    height: 82px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 13px;
+    color:#2D2D2D;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.catalog{   
+    /* text-decoration: none;  */
+    width: 125px;
+    height: 49px;
+    background: #339933;
+    border: 2px solid #339933;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.all_categories{
+    width: 120px;
+    height: 31px;
+    border: 2px solid #8B8B8B;
+    background-color: #FFFFFF;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #8B8B8B;
+}
+
+.input_submit{
+    width: 473px;
+    height: 75px;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    background: linear-gradient(262.69deg, #339933 -0.43%, #006300 104.36%);
+
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 29px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.basket_order{
+    width: 446px;
+    height: 75px;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    background: linear-gradient(262.69deg, #339933 -0.43%, #006300 104.36%);
+
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 29px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF; 
+}
+
+.to_cart{
+    width: 341px;
+    height: 86px;
+    background: #339933;
+    border: 2px solid #339933;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 28px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.add_to_cart{
+    width: 279px;
+    height: 72px;
+    background: #F1FFF1;
+    border: 2px solid #339933;
+    border-radius: 21px;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    color: #339933;
+
+    position: absolute;
+    top: 210px;
+    left: 10px;
+
+    cursor: pointer;
+}
+
+@media (max-width: 700px){
+    .basket_order{
+        width: 285px;        
+    }
+}
+
+@media (max-width: 650px){
+    .input_submit{
+        width: 300px;
+        font-weight: 600;
+        font-size: 20px;        
+    }
+}
+
+@media (max-width: 500px){
+    .to_cart{
+        width: 250px;
+        height: 60px;
+        
+        font-weight: 700;
+        font-size: 28px;
+        
+    }
+}

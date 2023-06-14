@@ -1,0 +1,23 @@
+.category_icon{
+    display: flex;
+    flex-direction: column;
+    justify-items:auto;
+    gap: 35px;       
+}
+
+.category_icon img{
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    object-fit: cover;    
+}
+
+.category_icon p{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #000000;
+}

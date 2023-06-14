@@ -1,0 +1,18 @@
+.categories_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+    
+    justify-content: space-between;
+    gap: 35px;
+    margin-bottom: 90px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+@media (max-width: 1070px){
+    .categories_container{
+        justify-content: space-evenly;        
+    }
+}

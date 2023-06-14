@@ -1,0 +1,93 @@
+.filter_wrapper{
+    margin-bottom: 45px;
+    display: flex;
+    gap: 50px;
+}
+
+.label_filter{
+    margin-right: 25px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.filter_item_wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.input_range{
+    margin-right: 15px;
+    padding: 10px;
+    width: 103px;
+    height: 42px;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    background-color: #F5F2F2;
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #797979;
+}
+
+.input_range::-webkit-inner-spin-button,
+.input_range::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+
+.checkbox_filter{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 0px 10px;
+
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    background-color: #F5F2F2;
+}
+
+.checkbox_filter:checked{
+    background-color: #FFFFFF;    
+}
+
+.checkbox_filter:checked:before{
+    content: "\2713";
+    color: black;
+    font-weight: bold;
+    padding: initial;
+    font-size: 25px;
+}
+
+.select_filter{
+    padding: 10px;
+    width: 219px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    background-color: #F5F2F2;
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #797979;
+}
+
+@media (max-width: 1018px){
+    .filter_wrapper{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .label_filter{
+        font-weight: 500;
+        font-size: 18px;        
+    }
+}
+

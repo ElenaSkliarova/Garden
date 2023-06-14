@@ -1,0 +1,26 @@
+
+.catalog_title{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 96px;
+    margin-bottom: 20px;
+}
+
+.catalog_title p{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #000000;   
+}
+
+@media (max-width: 450px){
+    .catalog_title{
+        margin-bottom: 30px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,144 @@
+.header_wrapper{
+    height: 120px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 60px;
+}
+
+.logo_block{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.logo{
+    height: 72px;
+    width: 72px;
+    background-size: contain;   
+}
+
+.btn_logo_block{
+    width: 129px;
+    height: 49px;
+    background: #339933;
+    border: 2px solid #339933;
+    border-radius: 5px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px; 
+    color: #FFFFFF;
+}
+
+.a{
+    text-decoration: none;
+}
+
+.nav_container { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;    
+}
+
+.link{
+    font-family: 'Montserrat'; 
+    font-weight: 500;
+    font-size: 16px; 
+    line-height: 130%;
+    color: #000000;
+}
+
+.active_link{
+    color: #339933;
+}
+
+.basket_icon{
+    width: 30px;
+    height: 35px;
+    position: relative;
+  
+}
+
+.counter_products{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #FF32A1;
+}
+
+.mobile_btn{
+    display: none;
+}
+
+@media(max-width: 950px){
+    .nav_container { 
+        padding-top: 38px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        gap: 30px;       
+        position: fixed;  
+        left: -100%;
+        right: 0; 
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 10;
+        /* background-color: #A1E2EB; */
+        background-color:#469f46;
+        /* transition: left 3s; */
+
+    }
+
+    .nav_container a{
+        font-size: 24px;
+    }
+    
+    .nav_container a:hover{
+        font-size: 24px;
+        color:#FFFFFF;
+    }
+    .active{
+        left:0;
+    }
+
+    .mobile_btn{
+        display: block;
+        position: absolute;
+        right: 4vw;
+        top: 38px;
+        z-index: 10;
+        cursor: pointer;
+    }
+
+    .mobile_btn_close{
+        position: fixed;
+        right: 4vw;
+        top: 38px;
+        z-index: 10;
+        cursor: pointer;
+    }
+    .active_link{
+        color: #000000;
+    }
+
+}
+

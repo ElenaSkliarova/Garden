@@ -1,0 +1,145 @@
+.product_container{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title_product{
+    margin-bottom: 30px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #3A3A3A;
+}
+
+.product_content{
+    display: flex;
+    align-items: flex-start;
+    gap: 5%;
+}
+
+.img_product_container{
+    display: flex;    
+    width: 54%;    
+}
+
+.img_product{  
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;    
+}
+
+.product_info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.price_container{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 12%;
+}
+
+.current_price{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.old_price{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-decoration-line: line-through;
+    color: #8B8B8B;
+}
+
+.discount_percentage{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #FF32A1;
+}
+
+.product_description{
+    margin-top: 40px;
+    padding: 25px 0px;    
+    display: flex;
+    flex-direction: column;
+    border-top: 3px dashed #C0C0C0;
+}
+
+.description_title{
+    margin-bottom: 25px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #000000
+}
+
+.description_text{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.not_found{
+    margin: 20px auto;
+    display:block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 1100px){
+    .product_content{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    .img_product_container, .product_info{
+       width: 80%;    
+    }
+}
+
+@media (max-width: 700px){
+    .title_product{
+        font-size: 32px;
+    }
+
+    .current_price{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 500px){
+    .title_product{
+        font-size: 28px;
+    }
+
+    .current_price, .old_price, .discount_percentage{
+        font-size: 20px;
+    }
+
+    .description_title, .description_text{
+        font-size: 16px;
+    }
+}

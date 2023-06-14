@@ -1,0 +1,29 @@
+.sales_block_container{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sale_p{
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.sales_block{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+    gap: 35px;
+}
+
+@media (max-width: 1140px){
+    .sales_block{
+        justify-content: space-evenly;   
+         
+    }
+}
+
